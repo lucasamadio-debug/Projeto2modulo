@@ -1,0 +1,16 @@
+body{
+    background-color: brown;
+}
+
+header{
+    background-color: rgb(55, 4, 4);
+    color: white;
+    text-align: right;
+    padding: 10px;
+}
+
+img{
+    width: 100px;
+    float: left;
+}
+
