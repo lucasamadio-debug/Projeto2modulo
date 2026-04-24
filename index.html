@@ -6,21 +6,62 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" href="imagens/logo1.png">
     <link rel="stylesheet" href="index.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400..700;1,400..700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Oswald:wght@200..700&family=Outfit:wght@100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
     <title>Thiago Lanches</title>
 </head>
+
 <body>
     <header>
         <a href="index.html">
-            <img src="imagens/logo2.png" alt="Thiago Lanches" title="Thiago Lanches"> 
+            <img id="logo" src="imagens/logo2.png" alt="Thiago Lanches" title="Thiago Lanches">
         </a>
-
-        <ul>
-            <li><a href="index.html">Início</a></li>
-            <li><a href="cardapio.html">Cardápio</a></li>
-            <li><a href="cadastro.html">Cadastro</a></li>
-            <li><a href="contato.html">Contato</a></li>
-        </ul>
-
+        <nav>
+            <ul>
+                <li><a href="index.html">Início</a></li>
+                <li><a href="cardapio.html">Cardápio</a></li>
+                <li><a href="cadastro.html">Cadastro</a></li>
+                <li><a href="contato.html">Contato</a></li>
+            </ul>
+        </nav>
     </header>
+
+    <section>
+        <h1>Thiago lanches o melhor de Araruna!</h1>
+        <p>Os melhores lanches da cidade, com ingredientes frescos e sabor inconfundível que aquece o coração!</p>
+
+        <button><a href="cardapio.html">Cardápio</a></button>
+
+    </section>
+
+    <main>
+         <div id="grid">
+            <div class="texto1">
+                <h2>🥖<br>Ingredientes frescos</h2>
+                <p>Utilizamos apenas os melhores ingredientes para garantir o sabor e a qualidade dos nossos lanches.</p>
+            </div>
+
+            <div class="texto2"> 
+                <h2>🔥<br>Presados na hora</h2>
+                <p>Seus lanches são preparados e prensados fresquinhos para você se deliciar com um pedaço do paraiso</p>
+            </div>
+
+            <div class="texto3">
+                <h2>🏍️<br>Entrega</h2>
+                <p>Entregamos seus lanches com rapidez e eficiência, garantindo que cheguem frescos e saborosos.</p>
+            </div>
+        </div>
+
+         <div id="pedido">
+                <h2>Faça seu pedido agora mesmo!</h2>
+                <p>Faça  seu cadastro e nao perca nem uma oportunidade!</p>
+                <button id="bt2"><a href="cadastro.html">Cadastro</a></button>
+            </div>
+
+    </main>
 </body>
+
 </html>
