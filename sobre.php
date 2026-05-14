@@ -24,10 +24,20 @@
     </section>
 
     <main>
-        <div id="historia">
-            <h2>A paixao que comecou na chapa</h2>
-            <p>Thiago Lanches nasceu do sonho de um jovem empreendedor apaixonado  por gastronomia, mas infelizmente nao deu certo e teve quer ser vendida, então ali começa sua grande histoira, Maicon um homem com varios sonhos e um talento desigual pra cozinha resolveu compra a lanchonete do thiago lanches e deixa com o mesmo nome e foi um sucesso o que o levou a explorar o mundo da culinária. Com dedicação e amor pela arte de fazer lanches, ele cresceu muito e agora é um dos maiores da sua cidade. Hoje, Thiago Lanches é conhecido por sua qualidade excepcional, ingredientes frescos e atendimento acolhedor, conquistando o paladar de muitos clientes fiéis.</p>
+        <div class="container-historia">
+            <div class="texto">
+                 <h2>A paixao que comecou na chapa</h2>
+                 <p>Thiago Lanches nasceu do sonho de um jovem empreendedor apaixonado  por gastronomia, mas infelizmente nao deu certo e teve quer ser vendida, então ali começa sua grande histoira, Maicon um homem com varios sonhos e um talento desigual para cozinhar resolveu compra a lanchonete do thiago e decidiu deixa com o mesmo nome e isso foi um sucesso. Com dedicação e amor pela arte de fazer lanches, ele cresceu muito e agora é um dos maiores da sua cidade. Hoje, Thiago Lanches é conhecido por sua qualidade excepcional, ingredientes frescos e atendimento acolhedor, conquistando o paladar de muitos clientes fiéis.</p>
+            </div>
+            
+            <div class="card-chef">
+                <img src="imagens/historia.png" alt="Maicon chef da cozinha " title="Maicon chef da cozinha">
+                <p>Maicon, o chef por trás do sucesso de Thiago Lanches</p>
+            </div>
         </div>
+    </main>
+
+<?php include "footer.php"; ?>
 
     <script src="js/index.js"></script>
 </body>    

@@ -48,14 +48,14 @@
         </div>
 
         <div id="pedido">
-            <h2>Faça seu cadastro!</h2>
-            <p>E ganhe descontos imperdiveis!</p>
+            <h2>Veja seu pedido agora e aproveite!</h2>
+            <p>Os melhores lanches da cidade estao aqui no Thiago Lanches!</p>
 
-            <button><a href="cadastro.php">Cadastro</a></button>
+            <button><a href="cardapio.php">Cardapio</a></button>
         </div>
 
     </main>
-    
+
     <?php include "footer.php"; ?>
 
     <script src = "js/index.js"></script>
