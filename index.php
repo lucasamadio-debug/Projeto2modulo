@@ -16,31 +16,14 @@
 </head>
 
 <body>
-    <header>
-        <div class="navBar">
-            <div class="logo">
-                <a href="index.html">
-                    <img id="logo" src="imagens/logo5.png" alt="Thiago Lanches" title="Thiago Lanches">
-                </a>
-            </div>
-            <div class="menu">
-            <nav>
-                <ul>
-                    <li><a href="index.html">Início</a></li>
-                    <li><a href="cardapio.html">Cardápio</a></li>
-                    <li><a href="cadastro.html">Cadastro</a></li>
-                    <li><a href="#contato">Contato</a></li>
-                </ul>
-            </nav>
-            </div>
-        </div>
-    </header>
+
+<?php include "header.php"; ?>
 
     <section>
         <h1>Thiago lanches o melhor de Araruna!</h1>
         <p>Os melhores lanches da cidade, com ingredientes frescos e sabor inconfundível que aquece o coração!</p>
 
-        <button><a href="cardapio.html">Cardápio</a></button>
+        <button><a href="cardapio.php">Cardápio</a></button>
 
     </section>
 
@@ -65,22 +48,17 @@
         </div>
 
         <div id="pedido">
-            <h2>Faça seu pedido agora mesmo!</h2>
-            <p>Faça seu cadastro e nao perca nem uma oportunidade!</p>
+            <h2>Faça seu cadastro!</h2>
+            <p>E ganhe descontos imperdiveis!</p>
 
-            <button><a href="cadastro.html">Cadastro</a></button>
+            <button><a href="cadastro.php">Cadastro</a></button>
         </div>
 
     </main>
+    
+    <?php include "footer.php"; ?>
 
-    <footer id="contato">
-        <h2>Informaçoes de contato</h2>
-        <p>📍Endereço: Avenida Paraná, Jardim Primavera</p>
-        <p>⏰ terça a Sábado: 18h às 00h e Domingo: 18h às 00h</p>
-        <a href="https://wa.me/5544998340641" target="_blank"><i class="fa-brands fa-square-whatsapp"></i></a>
-        <a href="https://www.instagram.com/thiagolanchesofc" target="_blank"><i class="fa-brands fa-square-instagram"></i></a>
-    </footer >
-
+    <script src = "js/index.js"></script>
 </body>
 
 </html>
