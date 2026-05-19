@@ -36,7 +36,7 @@
             </div>
 
             <div class="texto2">
-                <h2>🔥<br>Presados na hora</h2>
+                <h2>🔥<br>Prensados  na hora</h2>
                 <p>Seus lanches são preparados e prensados fresquinhos para você se deliciar com um pedaço do paraiso
                 </p>
             </div>
