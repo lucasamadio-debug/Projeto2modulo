@@ -61,7 +61,7 @@ $cardapio_completo = [
 
 <body>
 
-    <?php include "header.php"; ?>
+    <?php include "includes/header.php"; ?>
 
 
     <div class="container menu-conteudo my-5">
@@ -108,7 +108,7 @@ $cardapio_completo = [
         <?php endforeach; ?>
     </div>
 
-    <?php include "footer.php"; ?>
+    <?php include "includes/footer.php"; ?>
 
     <script src="js/index.js"></script>
 </body>

@@ -17,7 +17,7 @@
 
 <body>
 
-<?php include "header.php"; ?>
+<?php include "includes/header.php"; ?>
 
     <section>
         <h1>Thiago lanches o melhor de Araruna!</h1>
@@ -56,7 +56,7 @@
 
     </main>
 
-    <?php include "footer.php"; ?>
+    <?php include "includes/footer.php"; ?>
 
     <script src = "js/index.js"></script>
 </body>
