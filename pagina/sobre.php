@@ -17,7 +17,6 @@
 
 <body>
 
-    <?php include "includes/header.php"; ?>
     
     <section>
         <h2>Nossa História</h2>
@@ -37,7 +36,6 @@
         </div>
     </main>
 
-<?php include "includes/footer.php"; ?>
 
     <script src="js/index.js"></script>
 </body>    
