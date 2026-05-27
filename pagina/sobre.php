@@ -30,7 +30,7 @@
             </div>
             
             <div class="card-chef">
-                <img src="imagens/historia.png" alt="Maicon chef da cozinha " title="Maicon chef da cozinha">
+                <img src="imagens/maicon1.jpeg" alt="Maicon chef da cozinha " title="Maicon chef da cozinha">
                 <p>Maicon, o chef por trás do sucesso de Thiago Lanches</p>
             </div>
         </div>
