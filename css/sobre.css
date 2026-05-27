@@ -16,7 +16,7 @@ body {
 }
 
 .navbar-brand img {
-    width: 100px;
+    width: 110px;
     height: auto;
 }
 
@@ -125,7 +125,7 @@ section h2 {
 }
 
 footer {
-    background-color: #fff2da;
+    background-color:  #f5ae61;
     text-align: center;
     color: black;
     font-family: 'Oswald', sans-serif;

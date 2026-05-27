@@ -59,6 +59,86 @@ if (isset($_GET["param"])) {
             <p>Os melhores lanches da cidade estao aqui no Thiago Lanches!</p>
             <button><a href="index.php?param=cardapio">Cardápio</a></button>
         </div>
+
+        <!-- Carrossel de Lanches -->
+        <div id="carrosselLanches" class="carousel slide" data-bs-ride="carousel">
+  
+  <!-- Indicadores (pontinhos) -->
+        <div class="carousel-indicators">
+             <button type="button" data-bs-target="#carrosselLanches" data-bs-slide-to="0" class="active"></button>
+             <button type="button" data-bs-target="#carrosselLanches" data-bs-slide-to="1"></button>
+             <button type="button" data-bs-target="#carrosselLanches" data-bs-slide-to="2"></button>
+        </div>
+
+  <!-- Slides -->
+  <div class="carousel-inner">
+    
+    <!-- Slide 1 -->
+    <div class="carousel-item active">
+      <div class="d-flex justify-content-center gap-4 py-4">
+        <div class="card" style="width: 200px;">
+          <img src="imagens/x-salada.jpg" class="card-img-top" alt="X-Salada">
+          <div class="card-body text-center">
+            <h5 class="card-title">X-Salada</h5>
+            <p class="card-text text-orange fw-bold">R$ 22,00</p>
+          </div>
+        </div>
+        <div class="card" style="width: 200px;">
+          <img src="imagens/x-bacon.png" class="card-img-top" alt="X-Bacon">
+          <div class="card-body text-center">
+            <h5 class="card-title">X-Bacon</h5>
+            <p class="card-text text-orange fw-bold">R$ 30,00</p>
+          </div>
+        </div>
+        <div class="card" style="width: 200px;">
+          <img src="imagens/x-tudo.png" class="card-img-top" alt="X-Tudo">
+          <div class="card-body text-center">
+            <h5 class="card-title">X-Tudo</h5>
+            <p class="card-text text-orange fw-bold">R$ 55,00</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Slide 2 -->
+    <div class="carousel-item">
+      <div class="d-flex justify-content-center gap-4 py-4">
+        <div class="card" style="width: 200px;">
+          <img src="imagens/dog-carne.png" class="card-img-top" alt="Dog Carne">
+          <div class="card-body text-center">
+            <h5 class="card-title">Dog Carne</h5>
+            <p class="card-text text-orange fw-bold">R$ 22,00</p>
+          </div>
+        </div>
+        <div class="card" style="width: 200px;">
+          <img src="imagens/dog-bacon.png" class="card-img-top" alt="Dog Bacon">
+          <div class="card-body text-center">
+            <h5 class="card-title">Dog Bacon</h5>
+            <p class="card-text text-orange fw-bold">R$ 27,00</p>
+          </div>
+        </div>
+        <div class="card" style="width: 200px;">
+          <img src="imagens/smash-burguer.png" class="card-img-top" alt="Smash Burguer">
+          <div class="card-body text-center">
+            <h5 class="card-title">Smash Burguer</h5>
+            <p class="card-text text-orange fw-bold">R$ 16,00</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- Setas -->
+  <button class="carousel-control-prev" type="button" data-bs-target="#carrosselLanches" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon"></span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carrosselLanches" data-bs-slide="next">
+    <span class="carousel-control-next-icon"></span>
+  </button>
+
+</div>
+
     </main>
 
 <?php } ?>

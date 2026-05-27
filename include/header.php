@@ -10,10 +10,10 @@
           <a class="nav-link active" aria-current="page" href="index.php">Home</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="index.php?param=cardapio">Cardapio</a>
+          <a class="nav-link" href="cardapio">Cardapio</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="index.php?param=sobre">Sobre</a>
+          <a class="nav-link" href="sobre">Sobre</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="#contato">Contato</a>
