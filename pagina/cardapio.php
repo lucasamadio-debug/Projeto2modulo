@@ -93,7 +93,7 @@ $cardapio_completo = [
                                     
                                     <div class="d-flex justify-content-between align-items-center mt-auto pt-2 border-top">
                                         <span class="lanche-preco">R$ <?php echo number_format($lanche['preco'], 2, ',', '.'); ?></span>
-                                       <a href="https://wa.me/5544998340641" target="_blank" class="seta-link text-decoration-none">
+                                       <a href="https://wa.me/5544998340641?text=Olá, gostaria de pedir <?php echo urlencode($lanche['nome']); ?>" target="_blank" class="seta-link text-decoration-none">
                                             <i class="fa-solid fa-arrow-right"></i>
                                         </a>
                                     </div>
