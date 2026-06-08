@@ -72,9 +72,9 @@ if (isset($_GET['populares']) && $_GET['populares'] === 'sim') {
     $cardapioParaExibir = filtrarPopulares($cardapio_completo);
 }
 
-// ============================================
-// BANCO DE DADOS — pontos de Desenvolvimento Web
-// ============================================
+
+// BANCO DE DADOS 
+
 require_once "include/coneçao.php";
 require_once "include/funcoes.php";
 $produtosDoBanco = buscarTodosProdutos($conn);
@@ -161,10 +161,16 @@ $produtosDoBanco = buscarTodosProdutos($conn);
     <div class="menu-secao mb-5">
         <div class="secao-header d-flex align-items-center mb-4">
             <span class="secao-icon">🗄️</span>
-            <h2 class="secao-title ms-3">PRODUTOS DO BANCO DE DADOS</h2>
+            <h2 class="secao-title ms-3">Todos os Produtos</h2>
         </div>
 
         <div class="row row-cols-1 row-cols-sm-2 row-cols-md-4 g-4">
+
+        <?php if (empty($produtosDoBanco)): ?>
+            <p class="text-center text-muted">
+                Nenhum produto encontrado no banco de dados.
+            </p>
+         <?php else: ?>
             <?php foreach ($produtosDoBanco as $categoria => $itens): ?>
                 <?php foreach ($itens as $lanche): ?>
                     <div class="col">
@@ -190,6 +196,7 @@ $produtosDoBanco = buscarTodosProdutos($conn);
                     </div>
                 <?php endforeach; ?>
             <?php endforeach; ?>
+        <?php endif; ?> 
         </div>
     </div>
 
