@@ -90,7 +90,12 @@ body {
     }
 }
 
+.navbar-toggler, button {
+    background-color: wheat;
+    color: black;
 
+    
+}
 
 /* Menu horizontal preto */
 .menu-topo-fixo {

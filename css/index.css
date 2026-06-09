@@ -94,6 +94,13 @@ footer {
     }
 }
 
+.navbar-toggler, button {
+    background-color: wheat;
+    color: black;
+
+    
+}
+
 button{
     background-color: wheat;
     color: black;
@@ -117,7 +124,7 @@ button a {
 }
 
 
-/* cadastro embaixo */
+/* cardapio embaixo */
 #pedido {
     background-color:white;
     color: black;
@@ -141,7 +148,7 @@ button a {
 }
 
 
-/* grid de pontos positivos */
+
 #grid {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -286,7 +293,6 @@ button a {
 
     button {
         width: 100%;
-        max-width: 300px;
         margin: 15px auto;
         font-size: 18px;
         display: block;
@@ -295,6 +301,46 @@ button a {
     footer {
         padding: 20px 10px;
         font-size: 18px;
+    }
+
+
+/*carrossel*/
+    .carousel-inne{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+     .carousel-item {
+        width: 100%;
+    }
+
+     .carousel-item img {
+        width: 100%;
+    }
+
+        #carrosselLanches {
+        margin: 0 15px;
+        border-radius: 12px;
+        overflow: hidden;
+    }
+
+    #carrosselLanches .card {
+        width: 140px !important;
+    }
+
+    #carrosselLanches .d-flex {
+        gap: 10px !important;
+    }
+
+     #carrosselLanches .carousel-control-prev,
+    #carrosselLanches .carousel-control-next {
+        display: none;
+    }
+
+        #carrosselLanches .card {
+        width: 140px !important;
+         height: 200px !important; 
     }
 
 }

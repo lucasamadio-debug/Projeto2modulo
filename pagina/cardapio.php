@@ -1,7 +1,7 @@
 <?php
-// ============================================
-// ARRAY FIXO — pontos do Tech Forge
-// ============================================
+
+// ARRAY FIXO 
+ 
 $cardapio_completo = [
     [
         'secao_titulo' => 'PRENSADOS',
@@ -15,7 +15,7 @@ $cardapio_completo = [
             ['num' => '06', 'nome' => 'x-frango catupiry', 'preco' => 33.00, 'ingredientes' => 'Pão, salsicha, frango, tomate, hamburguer e alface catupiry.', 'popular' => true],
             ['num' => '07', 'nome' => 'x-frango cheddar', 'preco' => 33.00, 'ingredientes' => 'Pão, salsicha, frango, tomate, hamburguer e alface cheddar.', 'popular' => true],
             ['num' => '08', 'nome' => 'x-itapema', 'preco' => 23.00, 'ingredientes' => 'Pão, queijo, presunto, tomate hamburguer, batata palha e alface.'],
-        ]
+        ] 
     ],
     [
         'secao_titulo' => 'HOT DOGS',
@@ -41,9 +41,9 @@ $cardapio_completo = [
     ]
 ];
 
-// ============================================
-// FUNÇÃO DE FILTRO — pontos do Tech Forge
-// ============================================
+
+// FUNÇÃO DE FILTRO
+
 function filtrarPopulares(array $secoes): array {
     if (empty($secoes)) {
         return [];
@@ -111,9 +111,9 @@ $produtosDoBanco = buscarTodosProdutos($conn);
         <?php endif; ?>
     </div>
 
-    <!-- ============================== -->
+  
     <!-- SEÇÃO 1: DADOS DO ARRAY FIXO  -->
-    <!-- ============================== -->
+   
     <?php foreach ($cardapioParaExibir as $secao): ?>
         <div class="menu-secao mb-5">
             <div class="secao-header d-flex align-items-center mb-4">
@@ -155,9 +155,9 @@ $produtosDoBanco = buscarTodosProdutos($conn);
         </div>
     <?php endforeach; ?>
 
-    <!-- ================================ -->
+    
     <!-- SEÇÃO 2: DADOS DO BANCO DE DADOS -->
-    <!-- ================================ -->
+    
     <div class="menu-secao mb-5">
         <div class="secao-header d-flex align-items-center mb-4">
             <span class="secao-icon">🗄️</span>
@@ -168,7 +168,7 @@ $produtosDoBanco = buscarTodosProdutos($conn);
 
         <?php if (empty($produtosDoBanco)): ?>
             <p class="text-center text-muted">
-                Nenhum produto encontrado no banco de dados.
+                Nenhum produto encontrado no banco.
             </p>
          <?php else: ?>
             <?php foreach ($produtosDoBanco as $categoria => $itens): ?>
@@ -202,6 +202,6 @@ $produtosDoBanco = buscarTodosProdutos($conn);
 
 </div>
 
-<script src="js/index.js"></script>
+
 </body>
 </html>
