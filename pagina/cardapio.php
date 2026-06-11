@@ -1,42 +1,42 @@
 <?php
 
-// ARRAY FIXO 
+// ARRAY
  
 $cardapio_completo = [
     [
         'secao_titulo' => 'PRENSADOS',
         'secao_icon' => '🥖',
         'lanches' => [
-            ['num' => '01', 'nome' => 'x-salada', 'preco' => 22.00, 'ingredientes' => 'Pão, queijo, presunto, tomate hamburguer e alface.', 'popular' => true],
-            ['num' => '02', 'nome' => 'x-bacon', 'preco' => 30.00, 'ingredientes' => 'Pão, queijo, presunto, tomate, hamburguer, bacon e alface..'],
-            ['num' => '03', 'nome' => 'x-tudo', 'preco' => 55.00, 'ingredientes' => 'Frango, bacon, milho, catupiry, cheeder, tomate, alface, 2 salchichas 2 hambúrgueres, calabresa e bacon.', 'popular' => true],
-            ['num' => '04', 'nome' => 'x-calabresa', 'preco' => 30.00, 'ingredientes' => 'Pão, queijo, presunto, tomate hamburguer calabresa e alface.'],
-            ['num' => '05', 'nome' => 'x-frango', 'preco' => 29.00, 'ingredientes' => 'Pão, salsicha, frango, tomate, hamburguer e alface.', 'popular' => true],
-            ['num' => '06', 'nome' => 'x-frango catupiry', 'preco' => 33.00, 'ingredientes' => 'Pão, salsicha, frango, tomate, hamburguer e alface catupiry.', 'popular' => true],
-            ['num' => '07', 'nome' => 'x-frango cheddar', 'preco' => 33.00, 'ingredientes' => 'Pão, salsicha, frango, tomate, hamburguer e alface cheddar.', 'popular' => true],
-            ['num' => '08', 'nome' => 'x-itapema', 'preco' => 23.00, 'ingredientes' => 'Pão, queijo, presunto, tomate hamburguer, batata palha e alface.'],
+            ['num' => "PRENSADOS", "nome" => "x-salada", "preco" => 22.00, "ingredientes" => "Pão, queijo, presunto, tomate hamburguer e alface.", "popular" => true],
+            ['num' => "PRENSADOS", "nome" => "x-bacon", "preco" => 30.00, "ingredientes" => "Pão, queijo, presunto, tomate, hamburguer, bacon e alface.."],
+            ['num' => "PRENSADOS", "nome" => "x-tudo", "preco" => 55.00, "ingredientes" => "Frango, bacon, milho, catupiry, cheeder, tomate, alface, 2 salchichas 2 hambúrgueres, calabresa e bacon.", "popular" => true],
+            ['num' => "PRENSADOS", "nome" => "x-calabresa", "preco" => 30.00, "ingredientes" => "Pão, queijo, presunto, tomate hamburguer calabresa e alface."],
+            ['num' => "PRENSADOS", "nome" => "x-frango", "preco" => 29.00, "ingredientes" => "Pão, salsicha, frango, tomate, hamburguer e alface.", "popular" => true],
+            ['num' => "PRENSADOS", "nome" => "x-frango catupiry", "preco" => 33.00, "ingredientes" => "Pão, salsicha, frango, tomate, hamburguer e alface catupiry.", "popular" => true],
+            ['num' => "PRENSADOS", "nome" => "x-frango cheddar", "preco" => 33.00, "ingredientes" => "Pão, salsicha, frango, tomate, hamburguer e alface cheddar.", "popular" => true],
+            ['num' => "PRENSADOS", "nome" => "x-itapema", "preco" => 23.00, "ingredientes" => "Pão, queijo, presunto, tomate hamburguer, batata palha e alface."],
         ] 
     ],
     [
         'secao_titulo' => 'HOT DOGS',
         'secao_icon' => '🌭',
         'lanches' => [
-            ['num' => '09', 'nome' => 'Dog carne', 'preco' => 22.00, 'ingredientes' => 'Pão, salsicha, carne e batata palha.'],
-            ['num' => '10', 'nome' => 'Dog Misto', 'preco' => 24.00, 'ingredientes' => 'Pão, salsichas, carne, frango e batata palha.'],
-            ['num' => '11', 'nome' => 'Dog Bacon', 'preco' => 27.00, 'ingredientes' => 'Pão, 2 salsichas, milho, queijo, tomate, bacon e batata palha.', 'popular' => true],
-            ['num' => '12', 'nome' => 'Dog calabresa', 'preco' => 27.00, 'ingredientes' => 'Pão, salsicha, milho, queijo, tomate, calabresa e batata palha.', 'popular' => true],
-            ['num' => '13', 'nome' => 'Dog Frango', 'preco' => 22.00, 'ingredientes' => 'Pão, 2 salsichas, frango e batata palha.'],
-            ['num' => '14', 'nome' => 'Dog EGG calabresa', 'preco' => 30.00, 'ingredientes' => 'Pão, 2 salsichas, milho, queijo, tomate, calabresa, 2 eggs e batata palha.']
+            ['num' => "HOT DOGS", "nome" => "Dog carne", "preco" => 22.00, "ingredientes" => "Pão, salsicha, carne e batata palha."],
+            ['num' => "HOT DOGS", "nome" => "Dog Misto", "preco" => 24.00, "ingredientes" => "Pão, salsichas, carne, frango e batata palha."],
+            ['num' => "HOT DOGS", "nome" => "Dog Bacon", "preco" => 27.00, "ingredientes" => "Pão, 2 salsichas, milho, queijo, tomate, bacon e batata palha.", "popular" => true],
+            ['num' => "HOT DOGS", "nome" => "Dog calabresa", "preco" => 27.00, "ingredientes" => "Pão, salsicha, milho, queijo, tomate, calabresa e batata palha.", "popular" => true],
+            ['num' => "HOT DOGS", "nome" => "Dog Frango", "preco" => 22.00, "ingredientes" => "Pão, 2 salsichas, frango e batata palha."],
+            ['num' => "HOT DOGS", "nome" => "Dog EGG calabresa", "preco" => 30.00, "ingredientes" => "Pão, 2 salsichas, milho, queijo, tomate, calabresa, 2 eggs e batata palha."]
         ]
     ],
     [
         'secao_titulo' => 'LANCHES GOURMET',
         'secao_icon' => '✨',
         'lanches' => [
-            ['num' => '15', 'nome' => 'Smash Burguer', 'preco' => 16.00, 'ingredientes' => 'Pão brioche, hamburguer e queijo.'],
-            ['num' => '16', 'nome' => 'Gourmet da casa', 'preco' => 22.00, 'ingredientes' => 'Pão brioche, hamburguer, queijo, tomate, alface, molho da casa, cebola roxa.'],
-            ['num' => '17', 'nome' => 'Gourmet cheddar', 'preco' => 30.00, 'ingredientes' => 'Pão brioche, hamburguer, queijo, tomate, alface, queijo cheddar triplo, molho da casa, cebola roxa.', 'popular' => true],
-            ['num' => '18', 'nome' => 'Gourmet triplo bacon', 'preco' => 28.00, 'ingredientes' => 'Pão brioche, hamburguer, queijo, tomate, alface, molho da casa, cebola roxa e bacon.', 'popular' => true],
+            ['num' => "LANCHES GOURMET", "nome" => "Smash Burguer", "preco" => 16.00, "ingredientes" => "Pão brioche, hamburguer e queijo."],
+            ['num' => "LANCHES GOURMET", "nome" => "Gourmet da casa", "preco" => 22.00, "ingredientes" => "Pão brioche, hamburguer, queijo, tomate, alface, molho da casa, cebola roxa."],
+            ['num' => "LANCHES GOURMET", "nome" => "Gourmet cheddar", "preco" => 30.00, "ingredientes" => "Pão brioche, hamburguer, queijo, tomate, alface, queijo cheddar triplo, molho da casa, cebola roxa.", "popular" => true],
+            ['num' => "LANCHES GOURMET", "nome" => "Gourmet triplo bacon", "preco" => 28.00, "ingredientes" => "Pão brioche, hamburguer, queijo, tomate, alface, molho da casa, cebola roxa e bacon.", "popular" => true],
         ]
     ]
 ];
@@ -102,9 +102,9 @@ $produtosDoBanco = buscarTodosProdutos($conn);
     <!-- Botão de filtro -->
     <div class="d-flex align-items-center gap-3 mb-4">
         <?php if (!$mostrarPopulares): ?>
-            <a href="?populares=sim" class="btn-filtrar">⭐ Ver lanches populares</a>
+            <a href="?populares=sim" class="btn-filtrar">⭐ Favoritos</a>
         <?php else: ?>
-            <span style="font-family:'Inter'; color:#ff6600;">⭐ Lanches populares</span>
+            <span style="font-family:'Oswald'; color:#ff6600;">⭐ Lanches favoritos</span>
             <a href="?" class="btn btn-sm btn-outline-secondary" style="border-radius:10px; background-color:#fff0e6; color:#ff6600;">
                 ✖ Ver todos
             </a>
@@ -112,7 +112,7 @@ $produtosDoBanco = buscarTodosProdutos($conn);
     </div>
 
   
-    <!-- SEÇÃO 1: DADOS DO ARRAY FIXO  -->
+    <!-- ARRAY FIXO  -->
    
     <?php foreach ($cardapioParaExibir as $secao): ?>
         <div class="menu-secao mb-5">
@@ -156,7 +156,7 @@ $produtosDoBanco = buscarTodosProdutos($conn);
     <?php endforeach; ?>
 
     
-    <!-- SEÇÃO 2: DADOS DO BANCO DE DADOS -->
+    <!-- DADOS DO BANCO -->
     
     <div class="menu-secao mb-5">
         <div class="secao-header d-flex align-items-center mb-4">

@@ -65,17 +65,10 @@ if (isset($_GET["param"])) {
         <!-- Carrossel de Lanches -->
         <div id="carrosselLanches" class="carousel slide" data-bs-ride="carousel">
   
-  <!-- Indicadores (pontinhos) -->
-        <div class="carousel-indicators">
-             <button type="button" data-bs-target="#carrosselLanches" data-bs-slide-to="0" class="active"></button>
-             <button type="button" data-bs-target="#carrosselLanches" data-bs-slide-to="1"></button>
-             <button type="button" data-bs-target="#carrosselLanches" data-bs-slide-to="2"></button>
-        </div>
-
   <!-- Slides -->
   <div class="carousel-inner">
     
-    <!-- Slide 1 -->
+    <!-- fotos 1 -->
     <div class="carousel-item active">
       <div class="d-flex justify-content-center gap-4 py-4">
         <div class="card" style="width: 200px;">
@@ -102,7 +95,7 @@ if (isset($_GET["param"])) {
       </div>
     </div>
 
-    <!-- Slide 2 -->
+    <!-- fotos 2 -->
     <div class="carousel-item">
       <div class="d-flex justify-content-center gap-4 py-4">
         <div class="card" style="width: 200px;">
@@ -148,7 +141,7 @@ if (isset($_GET["param"])) {
 <?php include "include/footer.php"; ?>
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
-<script src="js/index.js"></script>
+
 </body>
 
 </html>
